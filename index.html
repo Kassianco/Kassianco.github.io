@@ -5,27 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="CSS/style_index.css">
 </head>
 <body>
   <header>
-    <nav>
-      <a href="#">Intro</a>
-      <a href="#">Work</a>
-      <a href="#">What</a>
-      <a href="#">Who</a>
+    <nav class="navigation_page">
+      <a href="#intro">Intro</a>
+      <a href="#work">Work</a>
+      <a href="#contact">What</a>
+      <a href="#who">Who</a>
     </nav>
+
     <div>
-      <h1>Matteo Cordiner</h1>
+      <h1>Matteo <em>Cordiner</em></h1>
     </div>
   </header>
   
-  <div><h2>Welcome on my portfolio. Here you can find all my professional informations.</h2></div>  
-  <main>  
+  <div class="intro" id="intro">
+    <h2 class="intro_text">Welcome on my portfolio. Here you can find all my professional informations.</h2>
+  </div>  
+
+  <main class="project-page">  
 
     <!-- first project -->
   
     <section class="project 1_project">
-      <h2>My Works</h2>
+      <h2 id="work">My Works</h2>
 
       <div class="info info_date">
         <h3>Year</h3>
@@ -45,8 +50,8 @@
       <article>
         <h2>Fendi MTO Service</h2>
         <p>Redesign the process of creating new personalized bags for Fendi clients.</p>
-        <a href="">See the project</a>
-        <img src="#" alt="#">
+        <a href="fendi_page.html">See the project</a>
+        <img src="image/Fendi/Fendi_splash_image.JPG" alt="Fendi_splash_image">
       </article>
   
     </section>
@@ -72,7 +77,7 @@
       <article>
         <h2>The Fork</h2>
         <p>Redesigning the whole The Fork application</p>
-        <a href="#">See the project</a>
+        <a href="the_fork_page.html">See the project</a>
         <img src="#" alt="#">
       </article>
     
@@ -135,11 +140,11 @@
   </main>  
 
   <footer>
-    <h2>Matteo Cordiner</h2>
+    <h2 id="who">Matteo Cordiner</h2>
     <p>I am a 22 years old guy from Rome. my background is in Product Design done in Rome at the IED (European Institut of Design).
     Right now i am doing a master in Web and Digital Design in Milan at the Scuola Politecnica di Design.
     I look to become a UX/UI Designer and in future to develop my own business thanks to my new skills owned during the Master. </p>
-    <ul>
+    <ul id="contact">
       <li>Email: <a href="mailto:matteo.cordiner@gmail.com">matteo.cordiner@gmail.com</a></li>
       <li>Phone: 349 637 71 39</li>
       <li>Instagram: <a href="https://www.instagram.com/matteo.cordiner/">matteo.cordiner</a></li>
