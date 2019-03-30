@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+
+  font-family: gotham;
+}
+
+.project_list {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.
+

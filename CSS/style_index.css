@@ -7,6 +7,10 @@
 body {margin: 0;
 }
 
+/********
+Splash Page 
+********/
+
 header {
   display: flex;
   justify-content: center;
@@ -43,6 +47,10 @@ h1 {
   color: yellow;
 }
 
+/********
+Intro Page 
+********/
+
 .intro {
   margin: 0;
 
@@ -54,7 +62,7 @@ h1 {
 
   font-size: 20px;
 
-  background-color: yellow;
+  background-color: rgb(230, 230, 22);
   color: white;
 }
 
@@ -64,6 +72,105 @@ h1 {
   text-align: center;
 }
 
+/********
+Work Page 
+********/
+
 .project-page {
   background-color: rgba(238, 232, 232, 0.6);  
 }
+
+.work_title {
+  margin: 0;
+
+  height: 100vh;
+
+  font-size: 10em;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(230, 230, 22);
+  color: white;
+}
+
+/**************
+Project General
+**************/
+
+.project {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  
+  height: 45vh;
+}
+
+.info {
+  margin: 3em;
+  margin-top: 4em;
+}
+
+.info_spec {
+  margin-top: 2em;
+
+  min-width: 600px;
+}
+
+.info_title {
+  font-size: 2em;
+}
+
+.info_spec_title {
+  font-size: 3em;
+}
+
+.link_page {
+  border: 2px solid black;
+  padding: .5em 2em;
+
+  color: black;
+}
+
+.info_img {
+  display: flex;
+
+}
+
+
+.link_page:hover {
+  border: 0;
+  background-color: rgb(202, 202, 202);
+  color: white;
+  transition: backgroundcolor 1s ease-in-out;
+}
+
+/**********
+Footer
+**********/
+
+footer {
+  position: relative;
+}
+
+.footer_description {
+  margin: 30px;
+  display: flex;
+  flex-flow: column;
+
+  width: 500px;
+}
+
+.footer_img {
+  position: absolute;
+  
+  top: 0em;
+  border-radius: 20px;
+  right: 1em;
+ 
+  width: 500px;
+}
+
