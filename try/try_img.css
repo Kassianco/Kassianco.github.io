@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  background-color: #fe9689
+}
+
+img {
+  margin: 70px 0px;
+
+  height: 500px;
+}
