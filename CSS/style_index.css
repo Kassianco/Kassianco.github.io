@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 
-  font-family: gotham;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
 
 body {margin: 0;
@@ -62,7 +62,7 @@ Intro Page
 
   font-size: 20px;
 
-  background-color: rgb(230, 230, 22);
+  background-color: rgb(240, 240, 50);
   color: white;
 }
 
@@ -92,7 +92,13 @@ Work Page
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(230, 230, 22);
+  background-color: rgb(240, 240, 50);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe032+0,ffe032+49,fccc2f+49,fccc2f+100 */
+  background: #ffe032; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #ffe032 0%, #ffe032 49%, #fccc2f 49%, #fccc2f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ffe032 0%,#ffe032 49%,#fccc2f 49%,#fccc2f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #ffe032 0%,#ffe032 49%,#fccc2f 49%,#fccc2f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe032', endColorstr='#fccc2f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   color: white;
 }
 
@@ -101,45 +107,91 @@ Project General
 **************/
 
 .project {
-  position: relative;
   display: flex;
-  flex-flow: row;
   justify-content: center;
+  align-items: baseline;
   
   height: 45vh;
 }
 
 .info {
-  margin: 3em;
-  margin-top: 4em;
+  margin-top: 5em;
+  margin-left: 3em;
+
+  display: flex;
+  flex-flow: column;
 }
 
 .info_spec {
-  margin-top: 2em;
+  align-items: flex-start;
+  margin-left: 10em;
 
   min-width: 600px;
 }
 
 .info_title {
+  margin: 1em;
   font-size: 2em;
 }
 
 .info_spec_title {
+  margin: 0;
+  
   font-size: 3em;
 }
 
-.link_page {
-  border: 2px solid black;
-  padding: .5em 2em;
+.link_to_product { 
+  margin: 0;
+  padding: 0.5em 2em;
 
+  display: block;
+
+  position: relative;
+
+  overflow: hidden;
+
+  text-transform: uppercase;
+  text-decoration: none;
   color: black;
+  font-size: 13px;
+  font-weight: 500;
+
+
+  border: 1.3px solid black;
+  border-radius: 20px;
+}
+
+.link_to_product:after {
+  content: "";
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  left: 0;
+
+  background-color: #fe9689;
+
+  transition: all .2s ease-out;
+}
+
+.link_to_product:hover:after {
+  top:0;
 }
 
 .info_img {
   display: flex;
-
+  justify-content: center;
+  background-color: #fe9689
 }
 
+.project_img {
+  margin: 70px 0px;
+
+  height: 500px;
+}
 
 .link_page:hover {
   border: 0;
@@ -153,7 +205,23 @@ Footer
 **********/
 
 footer {
-  position: relative;
+  /* position: relative; */
+
+  margin: 50px;
+}
+
+.footer_part {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+  /* flex-wrap: wrap; */
+}
+
+.footer_title {
+  font-size: 50px;
+
+  margin: 0;
 }
 
 .footer_description {
@@ -161,16 +229,30 @@ footer {
   display: flex;
   flex-flow: column;
 
-  width: 500px;
 }
 
 .footer_img {
-  position: absolute;
-  
+  justify-self: flex-end;
+
   top: 0em;
   border-radius: 20px;
   right: 1em;
  
   width: 500px;
+  height: 300px;
 }
 
+.contact {
+  list-style: none;
+  display: inline-block;
+
+  margin-left: 20px;
+}
+
+.link_footer {
+  color: black;
+}
+
+.contact_img {
+  width: 20px;
+}
