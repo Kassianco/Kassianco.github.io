@@ -205,9 +205,12 @@ Footer
 
 
 .footer_part {
+  padding: 3em;
+
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: center;
+  align-items: center;
 
   flex-wrap: wrap;
 }
@@ -228,27 +231,20 @@ Footer
   max-width: 500px;
 }
 
-.footer_img {
-  margin-left: 5em;
-  
-  top: 0em;
+.footer_img {  
   border-radius: 20px;
-  right: 1em;
  
   width: 500px;
-  height: 300px;
-}
-
-.contact {
-  list-style: none;
-  display: inline-block;
-
-  margin-left: 20px;
+  height: 280px;
 }
 
 .contact_list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.contact {
+  list-style: none;
 }
 
 .link_footer {
@@ -375,14 +371,4 @@ MOBILE
     padding: 0;
   }
 
-} 
-
-
-
-/***********
-************
-PROJECT PAGE
-************
-***********/
-
-
+}
