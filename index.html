@@ -20,7 +20,7 @@
     </div>
   </header>
   
-  <h2 class="intro_text">Welcome on my portfolio. Here you can find all my professional information.</h2>
+  <h2 class="intro_text" id="intro">Welcome on my portfolio. Here you can find all my professional information and projects.</h2>
   
   <main class="project-page">  
 
@@ -28,7 +28,7 @@
     
     <h2 class="work_title" id="work"><strong>Work.</strong></h2>
   
-    <section class="project 1_project">
+    <section class="project 1_project j-project1">
 
       <div class="info info_date">
         <h3 class="info_title info_date_title">Year</h3>
@@ -78,11 +78,11 @@
       <article class="info info_spec">
         <h2 class="info_title info_spec_title">The Fork</h2>
         <p>Redesigning the whole The Fork application</p>
-        <a class="link_to_product" href="the_fork_page.html">See the project</a>
+        <a class="link_to_product link_to_product_thefork" href="the_fork_page.html">See the project</a>
       </article>
     </section>
 
-    <div class="info_img">
+    <div class="info_img_thefork">
       <img class="project_img img_the_fork" src="image/The Fork/Main_the_fork.png" alt="background_project">
     </div>
 
@@ -109,11 +109,11 @@
       <article class="info info_spec">
         <h2 class="info_title info_spec_title">Svolta</h2>
         <p>E-Bike sharing for Rome</p>
-        <a class="link_to_product" href="svolta_page.html">See the project</a>
+        <a class="link_to_product link_to_product_svolta" href="svolta_page.html">See the project</a>
       </article>
     </section>
 
-    <div class="info_img">
+    <div class="info_img_svolta">
       <img class="project_img img_svolta" src="image/Svolta/render 2.png" alt="background_project">
     </div>
 
@@ -141,19 +141,27 @@
       <article class="info info_spec">
         <h2 class="info_title info_spec_title">Videomaking</h2>
         <p>I am a freelance videomaker, I have done videos for singer in Rome. All my videos are on-line on YouTube.</p>
-        <a class="link_to_product" href="videomaking_page.html">See the project</a>
+        <a class="link_to_product link_to_product_video" href="videomaking_page.html">See the project</a>
       </article>
     </section>
 
-    <div class="info_img">
+    <div class="info_img_videomaking">
       <img class="project_img img_videomaking" src="image/Videomaking/Splash_page.JPG" alt="background_project">      
     </div>
       
   </main>  
 
   <footer>
-    <a class="to_top_link" href="#top">Top<a>
+    <div class="footer_index"><p>&copy;Copyright by Matteo Cordiner. T:+39 349 637 71 39</p></div>
+    
+    <ul class="contact_list" id="contact">
+      <li class="contact"><a class="link_footer" href="mailto:matteo.cordiner@gmail.com"><img class="contact_img" src="image/icons/mail_icon.png" alt="mail_icon"></a></li>
+      <li class="contact"><a class="link_footer" href="https://www.instagram.com/matteo.cordiner/"><img class="contact_img" src="image/icons/instagram_icon.png" alt="instagram_icon"></a></li>
+      <li class="contact"><a class="link_footer" href="https://www.linkedin.com/in/matteo-cordiner-31360b14b/"><img class="contact_img" src="image/icons/linkedin_icon.png" alt="linkedin_icon"></a></li>
+    </ul> 
   </footer>
+
+  <script src="Script/animation_desktop.js"></script>
 
 </body>
 </html>
