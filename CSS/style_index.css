@@ -226,7 +226,7 @@ Project General
 
 .project_img {
   margin: 70px 0px;
-  overflow: hidden;
+  overflow: visible;
   height: 500px;
 }
 
@@ -493,5 +493,53 @@ MOBILE
     justify-content: center;
     padding: 0;
   }
+
+
+  /**********
+  ABOUT ME MOBILE
+  **********/
+  @media (max-width: 450px) {
+    .footer_part {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer_img {
+    border-radius: 10px;
+    width: 316px;
+    height: 180px;
+  }
+
+  .footer_text {
+    max-width: 500px;
+    font-size: 13px;
+  }
+
+  .footer_part {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 0;
+  }
+
+  .footer_title {
+    font-size: 65px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+
+
+
 
 }
