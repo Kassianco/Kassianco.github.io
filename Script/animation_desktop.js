@@ -7,32 +7,44 @@ TweenMax.to('.my_name', 3, {
   ease: Power4.easeOut,
 });
 
-TweenMax.to('#intro', 1, {
+TweenMax.to('#j-intro', .8, {
   y : 25, 
   ease: Bounce.easeOut
 });
 
-TweenMax.to('#work', 1.3, {
+TweenMax.to('#j-work', .9, {
   y: 25, 
   
   ease: Bounce.easeOut,
 });
 
-TweenMax.to('#who', 1.4, {
+TweenMax.to('#j-who', 1, {
   y: 25, 
  
   ease: Bounce.easeOut,
 });
 
-
+//Animation in Intro Page
 var myAnimation = new TimelineMax();
-myAnimation.to('', 1, { y: -100});
+myAnimation.to('#j-intro_text', 1, { y: 4});
 
 var controller = new ScrollMagic.Controller();
 var scene = new ScrollMagic.Scene({
-  triggerElement: '#trigger',
+  triggerElement: '.j-intro_trigger',
   triggerHook: .6,
   offset: 0,
-  duration: 750
+  duration: 500,
+  opacity:1
 }).setTween(myAnimation).addTo(controller); 
 
+//Animation in Work Page
+var myAnimation = new TimelineMax();
+myAnimation.to('#j-work_title', 1, { y: 350});
+
+var controller = new ScrollMagic.Controller();
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#j-work_trigger',
+  triggerHook: .8,
+  offset: 0,
+  duration: 1000
+}).setTween(myAnimation).addTo(controller); 
