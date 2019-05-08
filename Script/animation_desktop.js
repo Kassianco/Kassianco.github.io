@@ -1,8 +1,28 @@
 console.log('index');
 
-var myAnimation = new TimelineMax();
-myAnimation.to('.my_name', 1, { x:100});
 
+TweenMax.to('.my_name', 3, {
+  y: 1, 
+  opacity: 1,
+  ease: Power4.easeOut,
+});
+
+TweenMax.to('#intro', 1, {
+  y : 25, 
+  ease: Bounce.easeOut
+});
+
+TweenMax.to('#work', 1.3, {
+  y: 25, 
+  
+  ease: Bounce.easeOut,
+});
+
+TweenMax.to('#who', 1.4, {
+  y: 25, 
+ 
+  ease: Bounce.easeOut,
+});
 
 
 var myAnimation = new TimelineMax();
@@ -15,3 +35,4 @@ var scene = new ScrollMagic.Scene({
   offset: 0,
   duration: 750
 }).setTween(myAnimation).addTo(controller); 
+
