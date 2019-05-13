@@ -30,6 +30,7 @@ body {
   flex-flow: row;
   justify-content: space-around;
 
+  height: 25em;
   
   background-color: #fe9689;
 }
@@ -51,7 +52,8 @@ body {
 }
 
 .project_page_description_img {
-  max-width: 25em;
+  max-height: 20em;
+  max-width: 40em;
 
   transform: translateY(-10em);
 }
@@ -85,7 +87,7 @@ body {
 
 .project_page_project_img {
   padding: 40px;
-  max-width: 45em;
+  max-width: 55em;
   /*align-self: flex-end;*/
 }
 
@@ -241,8 +243,7 @@ MOBILE
   }
 
   .project_page_project_img{
-    padding: 60px;
-    margin: 10px;
+    margin: 2px 0;
     max-width: 25em;
     align-self: center;
   }
