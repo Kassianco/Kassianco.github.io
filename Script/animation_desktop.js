@@ -31,7 +31,7 @@ myAnimation.to('#j-intro_text', .1, { y: 4, opacity: 1});
 var controller = new ScrollMagic.Controller();
 var scene = new ScrollMagic.Scene({
   triggerElement: '.j-intro_trigger',
-  triggerHook: .3,
+  triggerHook: .1,
   offset: 0,
   duration: 300,
   opacity:1
