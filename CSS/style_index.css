@@ -540,8 +540,8 @@ MOBILE
 
 @media (max-width: 450px)  {
 
-  .my_name {
-
+  .intro {
+    height: 140vh;
   }
 
   .intro_text {
@@ -550,9 +550,6 @@ MOBILE
     font-size: 35px;
   }
 
-  .info_img {
-    height: 440px;
-  }
 
   h1 {
     transform: scale(.5);
@@ -564,7 +561,7 @@ MOBILE
   }
 
   .img_videomaking {
-    height: 145px;
+    height: 195px;
   }
 
   .img_pingo {
@@ -572,9 +569,8 @@ MOBILE
   }
 
   .img_svolta {
-    transform
-    margin: 0;
-    height: 200px;
+    
+    height: 250px;
   }
 
   .work_title {
