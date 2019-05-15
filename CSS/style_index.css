@@ -551,7 +551,6 @@ MOBILE
 
   h1 {
     transform: scale(.5);
-    position: absolute;
   }
   
   .project_img {
@@ -611,11 +610,24 @@ MOBILE
   .footer {
     height: 160px;
   }
+
+  .footer_index {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 380px)  {
+ 
+  .h1 {
+    transform: scale(.4);
+  }
+ 
+  .work-title {
+    font-size: 90px;
+  }
+  
   .project_img {
-    height: 250px;
+    height: 220px;
   }
 
   .img_videomaking {
@@ -623,7 +635,7 @@ MOBILE
   }
 
   .img_pingo {
-    height: 150px;
+    height: 135px;
   }
 
   .img_svolta {
