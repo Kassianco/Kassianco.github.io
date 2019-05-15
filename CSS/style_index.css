@@ -368,8 +368,7 @@ footer {
 .footer_img {  
   border-radius: 20px;
  
-  width: 500px;
-  height: 280px;
+  height: 200px;
 }
 
 .my_description {
@@ -450,9 +449,9 @@ footer {
  color: black;
 }
 
-
-
-
+/***********
+Responsivnes
+***********/
 
 @media (max-width: 1120px)  {
 
@@ -492,8 +491,12 @@ footer {
   }
 
   .project_img {
-    height: 400px;
+    height: 300px;
     
+  }
+
+  .img_svolta {
+    height: 15em;
   }
 
   .img_videomaking {
@@ -501,7 +504,7 @@ footer {
   }
 
   .img_pingo {
-    height: 230px;
+    height: 210px;
   }
 
   h1 {
@@ -527,10 +530,6 @@ footer {
 
     justify-content: flex-start;
   }
-
-  .img_svolta {
-    height: 30em;
-  }
 } 
 
 
@@ -550,7 +549,6 @@ MOBILE
     font-size: 35px;
   }
 
-
   h1 {
     transform: scale(.5);
     position: absolute;
@@ -561,16 +559,15 @@ MOBILE
   }
 
   .img_videomaking {
-    height: 195px;
+    height: 180px;
   }
 
   .img_pingo {
-    height: 175px;
+    height: 165px;
   }
 
   .img_svolta {
-    
-    height: 250px;
+    height: 215px;
   }
 
   .work_title {
@@ -610,7 +607,39 @@ MOBILE
     justify-content: center;
     padding: 0;
   }
+
+  .footer {
+    height: 160px;
+  }
 }
+
+@media (max-width: 380px)  {
+  .project_img {
+    height: 250px;
+  }
+
+  .img_videomaking {
+    height: 150px;
+  }
+
+  .img_pingo {
+    height: 150px;
+  }
+
+  .img_svolta {
+    height: 170px;
+  }
+
+  .work_title {
+    font-size: 100px;
+  }
+}
+
+
+
+
+
+
 
 /**********
 ABOUT ME MOBILE
