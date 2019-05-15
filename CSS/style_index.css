@@ -497,11 +497,11 @@ footer {
   }
 
   .img_videomaking {
-    height: 300px;
+    height: 230px;
   }
 
   .img_pingo {
-    height: 300px;
+    height: 230px;
   }
 
   h1 {
@@ -529,7 +529,7 @@ footer {
   }
 
   .img_svolta {
-    transform: scale(.4);
+    height: 30em;
   }
 } 
 
@@ -556,15 +556,20 @@ MOBILE
   }
   
   .project_img {
-    height: 400px;
+    height: 250px;
   }
 
   .img_videomaking {
-    height: 250px;
+    height: 145px;
   }
 
   .img_pingo {
-    height: 250px;
+    margin: 0;
+    height: 175px;
+  }
+
+  .img_svolta {
+    height: 500px;
   }
 
   .work_title {
