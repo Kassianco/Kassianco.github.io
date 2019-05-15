@@ -550,6 +550,10 @@ MOBILE
     font-size: 35px;
   }
 
+  .info_img {
+    height: 440px;
+  }
+
   h1 {
     transform: scale(.5);
     position: absolute;
@@ -564,12 +568,13 @@ MOBILE
   }
 
   .img_pingo {
-    margin: 0;
     height: 175px;
   }
 
   .img_svolta {
-    height: 500px;
+    transform
+    margin: 0;
+    height: 200px;
   }
 
   .work_title {
