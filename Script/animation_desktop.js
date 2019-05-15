@@ -39,8 +39,7 @@ var scene = new ScrollMagic.Scene({
 
 //Animation in Work Page
 var myAnimation = new TimelineMax();
-myAnimation.to('#j-work_title', 1, { y: 350, opacity: 1});
-
+myAnimation.to('#j-work_title', 1, { y: 400, opacity: 1});
 
 var scene = new ScrollMagic.Scene({
   triggerElement: '#j-work_trigger',
@@ -99,3 +98,58 @@ var scene = new ScrollMagic.Scene({
   triggerHook: .8,
   duration: 1000
 }).setTween(myAnimation).addTo(controller);
+
+//Animation project images
+//Fendi
+var myAnimation = new TimelineMax();
+myAnimation.to('.j-img_fendi', 1, {x: 1, opacity: 1})
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#j-img_fendi_trigger',
+  triggerHook: .7,
+  duration: 150
+}).setTween(myAnimation).addTo(controller);
+
+//TheFork
+var myAnimation = new TimelineMax();
+myAnimation.to('.j-img_thefork', 1, {y: 1, opacity: 1})
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#j-img_thefork_trigger',
+  triggerHook: .7,
+  duration: 200
+}).setTween(myAnimation).addTo(controller);
+
+//PinGo
+var myAnimation = new TimelineMax();
+myAnimation.to('.j-img_pingo', 1, {opacity: 1})
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#j-img_pingo_trigger',
+  triggerHook: .8,
+  duration: 350
+}).setTween(myAnimation).addTo(controller);
+
+//Svolta 
+var myAnimation = new TimelineMax();
+myAnimation.to('.j-img_svolta', 1, {x: 1, opacity: 1})
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#j-img_svolta_trigger',
+  triggerHook: .7,
+  duration: 170
+}).setTween(myAnimation).addTo(controller);
+
+//Videomaking
+var myAnimation = new TimelineMax();
+myAnimation.to('.j-img_video', 1, {opacity: 1})
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#j-img_video_trigger',
+  triggerHook: .7,
+  duration: 200
+}).setTween(myAnimation).addTo(controller);
+
+
+
+
