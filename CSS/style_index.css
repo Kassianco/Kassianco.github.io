@@ -200,7 +200,7 @@ Project General
 .info_img_pingo {
   display: flex;
   justify-content: center;
-  background-color: #fe8278;
+  background-color: #f53460;
 }
 
 
@@ -262,7 +262,7 @@ Project General
 }
 
 .link_to_product_pingo:after {
-  background-color: #fe8278;
+  background-color: #f53460;
 }
 
 .link_to_product_svolta:after {
@@ -551,7 +551,7 @@ Responsivnes
   }
 
   .info {
-    margin:10px;
+    margin:9px;
     padding: 1px;
   }
 

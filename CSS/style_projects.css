@@ -50,11 +50,18 @@ p {
 .project_page_project_header_thefork{
   background-color: #9fd4e4;
 }
+.project_page_header_pingo {
+  background-color: #f53460;
+}
 .project_page_project_header_svolta{
   background-color: #ffeee7;
 }
 .project_page_project_header_video{
   background-color: #fdff6d;
+}
+
+.project_page_project_header_pingo {
+  background-color: #f53460
 }
 
 .project_page_project_description {
@@ -165,6 +172,9 @@ JS
 
 .back_to_main_video:hover{
   background-color: #fdff6d;
+}
+.back_to_main_pingo:hover {
+  background-color: #f53460;
 }
 .go_see_it {
   margin: 20px;
