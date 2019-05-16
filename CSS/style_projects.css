@@ -95,7 +95,7 @@ JS
 }
 
 .project_page_project_img {
-  padding: 40px;
+  padding: 15px;
 
   height: 500px;
   
@@ -150,7 +150,7 @@ JS
 
 .back_to_main:hover {
   border: 0;
-  background-color: #fe9689;
+  background-color: #f8ce81;
   color: white;
   transition: backgroundcolor 1s ease-in-out;
 }
@@ -287,7 +287,7 @@ MOBILE
 
 @media (max-width: 814px) {
   .project_page_description_img {
-    height: 9em;
+    height: 20em;
     transform: translateY(-6em);
   }
 
@@ -303,7 +303,6 @@ MOBILE
   .project_page_project_img_pingo {
     height: 300px;
   }
-
 }
 
 
@@ -314,6 +313,7 @@ MOBILE
   }
   
   .project_page_description_img {
+    height: 15em;
     transform: translateY(-4em);
   }
 }
@@ -345,7 +345,7 @@ MOBILE
   }
 
   .project_page_description_img_fendi {
-    height: 250px;
+    height: 230px;
   }
 
   .project_page_project_img_fendi {

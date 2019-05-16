@@ -46,6 +46,7 @@ a {
 .my_name { 
   display: flex;
   justify-content: center;
+  align-items: center;
   
   /***
   js
@@ -58,6 +59,7 @@ h1 {
   width: 5em;
   text-align: center;
   font-size: 150px;
+  
 
   color: rgb(255, 255, 1);
 }
@@ -465,7 +467,7 @@ Responsivnes
   }
 
   .img_pingo {
-    height: 450px;
+    height: 420px;
   }
 
   h1 {
@@ -477,11 +479,48 @@ Responsivnes
   }
 }
 
+@media (max-width:940px) {
+  .img_pingo {
+    height: 400px;
+  }
+
+  .img_videomaking {
+    height: 400px;
+  }
+
+}
+
+
+
+
 @media (max-width:900px) {
   .info {
     margin-top: 3em;
     margin-right: 10px;
   }
+}
+
+
+@media (max-width:890px) {
+
+  .img_pingo {
+    height: 350px;
+  }
+
+  .img_videomaking {
+    height: 350px;
+  }
+}
+
+@media (max-width:780px) {
+  .img_pingo {
+    height: 300px;
+  }
+
+  .img_videomaking {
+    height: 300px;
+  }
+
 }
 
 @media (max-width: 750px)  {
