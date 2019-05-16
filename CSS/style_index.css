@@ -151,6 +151,7 @@ Project General
   *****/
   transform: translateY(80px);
   opacity: 0;
+  color: rgb(50, 50, 50);
 }
 
 .project_description {
@@ -227,7 +228,7 @@ Project General
   overflow: hidden;
 
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   font-weight: 600;
 
@@ -273,9 +274,9 @@ Project General
   background-color: #fdff6d;
 }
 
-.link_page:hover {
+.link_to_product:hover {
   border: 0;
-  color: white;
+  color: rgb(255, 255, 255);
   transition: backgroundcolor 1s ease-in-out;
 }
 
@@ -283,6 +284,8 @@ Project General
   margin: 70px 0px;
   overflow: visible;
   height: 500px;
+
+
 }
 
 /**********
@@ -449,6 +452,10 @@ footer {
  align-items: center; 
 
  color: black;
+}
+
+.back_to_main_about:hover {
+  background-color: black;
 }
 
 /***********

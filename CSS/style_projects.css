@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  color: rgb(50, 50, 50)
 }
 
 .project_page_header {     
@@ -17,15 +18,22 @@ body {
   align-items: flex-end;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 li {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 p {
-  font-weight: 600;
-  
   margin: 20px;
+
+  max-width: 35em;
+  font-weight: 600;
+  font-size: 20px;
+  
 }
 
 .project_page_title {
@@ -80,9 +88,8 @@ p {
 /**********
 JS
 **********/
-.j-projectpg_fendi_img {
-
-
+.j-projectpage_fendi_description_img{
+  
 }
 
 .project_page_description_img_svolta {
@@ -92,9 +99,9 @@ JS
 }
 
 .project_page_project_list {
- /* margin: 10em;
-  border-radius: 40px;*/
+ margin-top: 15em;
 
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,6 +118,11 @@ JS
 
 .project_page_video_img {
   padding: 25px;
+}
+
+.project_page_project_img_thefork {
+  height: 800px;
+  margin-bottom: 25px;
 }
 
 .project_page_footer {
@@ -276,7 +288,7 @@ MOBILE
   .project_page_description_img_thefork {
     padding: 30px;
     margin: 10px;
-    max-height: 24em;
+    max-height: 40em;
     align-self: center;
   }
 
@@ -302,7 +314,7 @@ MOBILE
   }
 
   .project_page_project_img {
-    height: 20em;
+    height: 40em;
     padding: 15px;
   }
 
