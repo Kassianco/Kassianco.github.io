@@ -99,7 +99,7 @@ JS
 
   transform: translateY(-10em);
 }
-
+/********/
 .project_page_project_list {
  margin-top: 15em;
 
@@ -116,6 +116,11 @@ JS
   height: 500px;
   
   /*align-self: flex-end;*/
+}
+
+.project_page_project_img_fendi {
+  height: 750px;
+  margin: 40px;
 }
 
 .project_page_video_img {
