@@ -61,7 +61,7 @@ a {
 h1 {
   width: 5em;
   text-align: center;
-  font-size: 200px;
+  font-size: 180px;
   
 
   color: white;
@@ -157,7 +157,7 @@ Project General
   *****/
   transform: translateY(80px);
   opacity: 0;
-  color: rgb(50, 50, 50);
+  color: rgb(31, 31, 31);
 }
 
 .project_description {
@@ -482,9 +482,8 @@ Responsivnes
 
 @media (max-width: 1120px)  {
 
-  .project_img {
-   height: 450px;
-    
+  .project_img_fendi {
+    height: 45vw;
   }
 
   .img_videomaking {
@@ -496,7 +495,7 @@ Responsivnes
   }
 
   h1 {
-    transform: scale(.8);
+    font-size: 15vw ;
   }
 
   .info {
@@ -554,11 +553,6 @@ Responsivnes
     font-size: 3em;
   }
 
-  .project_img {
-    height: 300px;
-    
-  }
-
   .img_svolta {
     height: 15em;
   }
@@ -569,10 +563,6 @@ Responsivnes
 
   .img_pingo {
     height: 210px;
-  }
-
-  h1 {
-    transform: scale(.7);
   }
 
   .info {
@@ -612,14 +602,11 @@ MOBILE
 
     font-size: 35px;
   }
+ 
+  .project_img_fendi {
+    height: 52vw;
+  }
 
-  h1 {
-    transform: scale(.5);
-  }
-  
-  .project_img {
-    height: 250px;
-  }
 
   .img_videomaking {
     height: 180px;
@@ -690,10 +677,6 @@ MOBILE
     font-size: 90px;
   }
   
-  .project_img {
-    height: 220px;
-  }
-
   .img_videomaking {
     height: 150px;
   }
