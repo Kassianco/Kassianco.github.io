@@ -110,9 +110,12 @@ JS
   flex-flow: column;
 }
 
-.project_page_project_img {
-  padding: 15px;
+.project_page_project_img_pingo {
+  margin-top: 6em;
+  padding: 0;
+}
 
+.project_page_project_img {
   height: 500px;
   
   /*align-self: flex-end;*/
@@ -130,6 +133,7 @@ JS
 .project_page_project_img_thefork {
   height: 800px;
   margin-bottom: 25px;
+  min-height: 410px;
 }
 
 .project_page_footer {
@@ -279,40 +283,13 @@ MOBILE
   PROJECTS
   *********/
 
-  .project_page_header {
-    margin-left: 1em;
-    margin-top: 0;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .project_page_project_img{
-    margin: 2px 0;
-    height: 325px;
-    align-self: center;
-  }
-
-  .project_page_description_img_thefork {
-    padding: 30px;
-    margin: 10px;
-    max-height: 40em;
-    align-self: center;
-  }
-
-  .project_page_project_img_pingo {
-    height: 160px;
-    padding: 0;
-    margin:  0;
-  }
-
-
 }
 
 @media (max-width: 890px) {
   .project_page_project_img_pingo {
-    height: 300px;
+    height: 40vw;
+    min-height: 200px;
+    margin-top: 6em;
   }
 }
 
@@ -322,21 +299,12 @@ MOBILE
     transform: translateY(-6em);
   }
 
-  .project_page_project_img {
-    height: 40em;
-    padding: 15px;
-  }
-
   .project_page_project_img_fendi {
     height: 500px;
   }
 
   .project_page_project_img_svolta {
     height: 355px;
-  }
-
-  .project_page_project_img_pingo {
-    height: 300px;
   }
 
   .project_page_video_img {
@@ -364,6 +332,10 @@ MOBILE
     transform: translateY(-4em);
   }
 
+  .project_page_description_img_pingo {
+    height: 10em;
+  }
+
   .project_page_description_img_video {
     height: 150px;
   }
@@ -386,12 +358,6 @@ MOBILE
 
   }
   
-  .project_page_project_img_pingo {
-    height: 165px;
-    padding: 0;
-    
-  }
-
   .project_page_description_img_thefork {
     height: 290px;
     margin: 0;
@@ -399,7 +365,7 @@ MOBILE
   }
 
   .project_page_project_img_thefork {
-    height: 500px;
+    height: 129vw;
     margin: 15px;
   }
 
@@ -470,13 +436,43 @@ MOBILE
   }
 }
 
+@media (max-width: 450px) {
+  .project_page_header {
+    margin-left: 1em;
+    margin-top: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .project_page_project_img{
+    margin: 2px 0;
+  
+    align-self: center;
+  }
+
+  
+  .project_page_project_img_pingo{
+    margin: 7em 0;
+  
+    align-self: center;
+
+    min-height: 175px;
+  }
+
+  .project_page_description_img_thefork {
+    padding: 30px;
+    margin: 10px;
+    max-height: 40em;
+    align-self: center;
+  }
+}
+
 
 
 @media (max-width: 370px) {
 
-  .project_page_project_img_pingo {
-    height: 155px;
-  }
 
   .project_page_project_img_fendi {
     height: 200px;
