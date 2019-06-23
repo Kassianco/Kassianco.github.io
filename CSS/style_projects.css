@@ -326,7 +326,11 @@ MOBILE
   .project_page_project_img_fendi {
     height: 300px;
   }
-  
+
+  .mockuper-thefork {
+    height: 100px;
+  }
+    
   .project_page_description_img {
     height: 15em;
     transform: translateY(-4em);
@@ -357,13 +361,17 @@ MOBILE
     transform: translateY(-2em);
 
   }
-  
+
   .project_page_description_img_thefork {
     height: 290px;
     margin: 0;
     padding: 0;
   }
 
+  .mockuper-thefork {
+    height: 120px;
+  }
+  
   .project_page_project_img_thefork {
     height: 129vw;
     margin: 15px;
